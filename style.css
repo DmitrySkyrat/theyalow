@@ -1,32 +1,43 @@
-body {
-    margin: 300px 0px;
-}
 .wrapper {
     width: 1300px;
-    height: 1847px;
+    height: 100%;
 }
 .header {
     background-image: url('./assets/Layer20.png');
-    width: 1300px;
-    height: 565px;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 30.6vh;
+}
+.header img{
+    margin-left: 7.6vw;
+    margin-top: 1.55vh;
+    background-position:center;
 }
 .menu {
     background-image: url('./assets/Layer\ 33.png');
-    width: 1300px;
-    height: 211px;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100vw;
+    height: 11.5vh;
 }
 .slider {
     background-image: url('./assets/Layer\ 10\ copy\ 3.png');
-    width: 1300px;
-    height: 509px;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100vw;
+    height: 27.5vh;
 }
 .center {
     background-image: url('./assets/Layer\ 32.png');
-    width: 1300px;
-    height: 500px;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100vw;
+    height: 27.0vh;
 }
 .footer {
     background-image: url('./assets/Layer\ 31.png');
-    width: 1300px;
-    height: 62px;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100vw;
+    height: 3.4vh;
 }
