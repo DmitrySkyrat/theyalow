@@ -1,3 +1,32 @@
-p {
-    color: blue;
+body {
+    margin: 300px 0px;
+}
+.wrapper {
+    width: 1300px;
+    height: 1847px;
+}
+.header {
+    background-image: url('./assets/Layer20.png');
+    width: 1300px;
+    height: 565px;
+}
+.menu {
+    background-image: url('./assets/Layer\ 33.png');
+    width: 1300px;
+    height: 211px;
+}
+.slider {
+    background-image: url('./assets/Layer\ 10\ copy\ 3.png');
+    width: 1300px;
+    height: 509px;
+}
+.center {
+    background-image: url('./assets/Layer\ 32.png');
+    width: 1300px;
+    height: 500px;
+}
+.footer {
+    background-image: url('./assets/Layer\ 31.png');
+    width: 1300px;
+    height: 62px;
 }
