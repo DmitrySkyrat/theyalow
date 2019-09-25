@@ -1,43 +1,118 @@
-.wrapper {
+body {
     width: 1300px;
     height: 100%;
+    margin: auto;
+}
+.one .two {
+    float: left;
+}
+.logo {
+    font-size: 41px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    float: right;
+    margin-top: 60px;
+    padding-right: 258px;
+}
+.lefttag {
+    border: 1px solid #f5c506;
+    width: 32px;
+    height: 57px;
+    background-color: #f5c506;
+    display: inline-block;
+}
+.lefttag img{
+    padding-top:19px;
+    padding-left: 8px; 
 }
 .header {
     background-image: url('./assets/Layer20.png');
     width: 100%;
     background-repeat: no-repeat;
-    height: 30.6vh;
+    background-position: center top;
+    height: 565px;
 }
-.header img{
-    margin-left: 7.6vw;
-    margin-top: 1.55vh;
-    background-position:center;
+.header img.one{
+    margin-left: 140px;
+    margin-top: 28.5px;
+}
+.header img.two {
+    margin-left: -86px;
+    margin-top: 28.5px;
+}
+.birds {
+    margin-left: 0px;
+    margin-top: 57px;
+}
+.about, .services, .contact {
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    height: 41px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    border: 1px solid #f5c505;
+    }
+.contact {
+    width: 147px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 140px;
+    border-left: 1px solid #b99403;
+}
+.contact img {
+    vertical-align: -3px;
+    margin-left: -4px;
+    padding-right: 8px;
+}
+.services {
+    width: 134px;
+    float: right;
+    margin-top: 70px;
+    border-left: 1px solid #b99403;
+}
+.services img {
+    vertical-align: -3px;
+    padding-right: 9px;
+}
+.about {
+    width: 172px;
+    float: right;
+    margin-top: 70px;
+}
+.about img {
+    vertical-align: -3px;
+    padding-right: 9px;
+    margin-left: 19px;
 }
 .menu {
     background-image: url('./assets/Layer\ 33.png');
     background-repeat: no-repeat;
     background-position:center;
-    width: 100vw;
-    height: 11.5vh;
+    width: 100%;
+    height: 211px;
 }
+
 .slider {
     background-image: url('./assets/Layer\ 10\ copy\ 3.png');
     background-repeat: no-repeat;
     background-position:center;
-    width: 100vw;
-    height: 27.5vh;
+    width: 100%;
+    height: 509px;
 }
 .center {
     background-image: url('./assets/Layer\ 32.png');
     background-repeat: no-repeat;
     background-position:center;
-    width: 100vw;
-    height: 27.0vh;
+    width: 100%;
+    height: 500px;
 }
 .footer {
     background-image: url('./assets/Layer\ 31.png');
     background-repeat: no-repeat;
     background-position:center;
-    width: 100vw;
-    height: 3.4vh;
+    width: 100%;
+    height: 62px;
 }
