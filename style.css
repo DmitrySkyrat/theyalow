@@ -22,10 +22,25 @@ body {
     height: 57px;
     background-color: #f5c506;
     display: inline-block;
+    float: left;
+    margin-top: 183px;
+}
+.righttag {
+        border: 1px solid #f5c506;
+        width: 32px;
+        height: 57px;
+        background-color: #f5c506;
+        display: inline-block;
+        float: right;
+        margin-top: 183px;
 }
 .lefttag img{
     padding-top:19px;
     padding-left: 8px; 
+}
+.righttag img{
+    padding-top:19px;
+    padding-left: 8px;
 }
 .header {
     background-image: url('./assets/Layer20.png');
@@ -43,8 +58,15 @@ body {
     margin-top: 28.5px;
 }
 .birds {
-    margin-left: 0px;
-    margin-top: 57px;
+    margin-left: 114px;
+    margin-top: 50px;
+}
+.video-container img{
+    position: absolute;
+}
+.playerbuttton{
+
+    
 }
 .about, .services, .contact {
     font-size: 17px;
