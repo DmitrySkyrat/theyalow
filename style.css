@@ -1,3 +1,27 @@
+   @font-face {
+    font-family: Asap;
+    src: url(assets/Fonts/Asap-Regular.otf);
+   }
+   @font-face {
+    font-family: Segoe WP;
+    src: url(assets/Fonts/segoe-wp.ttf);
+   }
+   @font-face {
+    font-family: PT Sans;
+    src: url(assets/Fonts/PTS55F.ttf);
+   }
+   @font-face {
+    font-family: Segoe UI;
+    src: url(assets/Fonts/Segoe\ UI.ttf);
+   }
+   @font-face {
+    font-family: Open Sans;
+    src: url(assets/Fonts/OpenSans-Light.ttf);
+   }
+   @font-face {
+    font-family: PT Sans Narrow;
+    src: url(assets/Fonts/PTN57F.ttf);
+   }
 body {
     width: 1300px;
     height: 100%;
@@ -13,37 +37,55 @@ body {
     font-family: "Lucida Sans";
     font-style: italic;
     float: right;
-    margin-top: 60px;
-    padding-right: 258px;
+    margin-top: 55px;
+    padding-right: 257px;
 }
 .lefttag {
     border: 1px solid #f5c506;
-    width: 32px;
-    height: 57px;
+    width: 31px;
+    height: 55px;
     background-color: #f5c506;
-    display: inline-block;
     float: left;
     margin-top: 183px;
 }
 .righttag {
-        border: 1px solid #f5c506;
-        width: 32px;
-        height: 57px;
-        background-color: #f5c506;
-        display: inline-block;
-        float: right;
-        margin-top: 183px;
+    border: 1px solid #f5c506;
+    width: 29px;
+    height: 55px;
+    background-color: #f5c506;
+    display: inline-block;
+    float: right;
+    margin-top: 183px;
+}
+.cool {
+    position: absolute;
+    color: white;
+    margin-left: 748px;
+    margin-top: -259px;
+}
+.cool p{
+    font-size: 63px;
+    letter-spacing: 1px;
+    font-family: "Asap";
+    font-weight: 400;
+    text-align: center;
+    line-height: 79px;
+}
+.thecool {
+    color: #f5c506;
+    margin-left: -13px;
+
 }
 .lefttag img{
-    padding-top:19px;
-    padding-left: 8px; 
-}
-.righttag img{
-    padding-top:19px;
+    padding-top:18px;
     padding-left: 8px;
 }
+.righttag img{
+    padding-top: 17px;
+    padding-left: 10px;
+}
 .header {
-    background-image: url('./assets/Layer20.png');
+    background-image: url('./assets/Header/Layer20.png');
     width: 100%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -51,22 +93,46 @@ body {
 }
 .header img.one{
     margin-left: 140px;
-    margin-top: 28.5px;
+    margin-top: 26.5px;
 }
 .header img.two {
     margin-left: -86px;
-    margin-top: 28.5px;
+    margin-top: 33.5px;
 }
 .birds {
-    margin-left: 114px;
-    margin-top: 50px;
+    margin-left: 118px;
+    margin-top: 51px;
 }
 .video-container img{
     position: absolute;
 }
 .playerbuttton{
-
-    
+    margin-top: 180px;
+    margin-left: 358px;
+}
+.bigtriangle {
+    margin-top: 198px;
+    margin-left: 386px;
+}
+.button {
+    margin-top: 329px;
+    margin-left: 147px;
+}
+.smalltriangle {
+    margin-top: 334px;
+    margin-left: 157px;
+}
+.videoslider {
+    margin-top: 336px;
+    margin-left: 197px;
+}
+.loadslider {
+    margin-top: 337px;
+    margin-left: 198px; 
+}
+.lantern {
+    margin-top: 336px;
+    margin-left: 632px;
 }
 .about, .services, .contact {
     font-size: 17px;
@@ -77,11 +143,21 @@ body {
     background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
     border: 1px solid #f5c505;
     }
+    .back1{
+        position: absolute;
+        margin-left: 703px;
+        margin-top: 65px;
+    }
+    .back2{
+        position: absolute;
+        margin-left: 699px;
+        margin-top: 62px;
+    }
 .contact {
     width: 147px;
     float: right;
-    margin-top: 70px;
-    margin-right: 140px;
+    margin-top: 71px;
+    margin-right: 139px;
     border-left: 1px solid #b99403;
 }
 .contact img {
@@ -92,49 +168,326 @@ body {
 .services {
     width: 134px;
     float: right;
-    margin-top: 70px;
+    margin-top: 71px;
     border-left: 1px solid #b99403;
 }
 .services img {
     vertical-align: -3px;
-    padding-right: 9px;
+    padding-right: 8px;
 }
 .about {
     width: 172px;
     float: right;
-    margin-top: 70px;
+    margin-top: 71px;
 }
 .about img {
     vertical-align: -3px;
-    padding-right: 9px;
-    margin-left: 19px;
+    padding-right: 5px;
+    margin-left: 21px;
 }
 .menu {
-    background-image: url('./assets/Layer\ 33.png');
+    background-image: url('./assets/Menu/Layer\ 3.png');
     background-repeat: no-repeat;
     background-position:center;
     width: 100%;
     height: 211px;
 }
-
+.BETTERDESIGN{
+    height: 89px;
+    width: 116px;
+    margin-left: 140px;
+    border-left: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
+    padding: 61px 112px;
+    position: absolute;
+}
+.BETTERDESIGN img {
+    width: 110px;
+    height: 75px;
+}
+.CUSTOMISE{
+    height: 137px;
+    width: 67px;
+    margin-left: 478px;
+    border-right: 1px solid #d5d5d5;
+    padding: 37px 138px;
+    position: absolute;
+}
+.CUSTOMISE img {
+    width: 92px;
+    height: 96px;
+}
+.ITSFREE{
+    height: 103px;
+    width: 67px;
+    margin-left: 785px;
+    border-right: 1px solid #d5d5d5;
+    padding: 54px 154px;
+    position: absolute;
+}
+.ITSFREE img {
+    width: 82px;
+    height: 84px;
+}
+.DESIGN {
+position: absolute;
+font-size: 27px;
+letter-spacing: 0px;
+color: #2c2c2c;
+font-family: "Segoe UI";
+font-weight: 100;
+text-align: center;
+margin-left: 227px;
+margin-top: 150px;
+}
+.CUSTOM {
+position: absolute;
+font-size: 27px;
+letter-spacing: 0px;
+color: #2c2c2c;
+font-family: "Segoe UI";
+font-weight: 100;
+text-align: center;
+margin-left: 592px;
+margin-top: 151px;
+}
+.FREE {
+    position: absolute;
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #2c2c2c;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    text-align: center;
+    margin-left: 933px;
+    margin-top: 150px;
+}
 .slider {
-    background-image: url('./assets/Layer\ 10\ copy\ 3.png');
+    background-image: url('./assets/Slider/Layer\ 10\ copy\ 3.png');
     background-repeat: no-repeat;
     background-position:center;
     width: 100%;
     height: 509px;
 }
+.Lorem {
+    border: 1px solid #ec9e03;
+    background-color: #ec9e03;
+    width: 338px;
+    height: 231px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 111px;
+}
+.Lorem p{
+    font-size: 29px;
+    letter-spacing: -0.7px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 400;
+    text-align: inherit;
+    padding: 16px 32px;
+}
+.loremtitle {
+    position: absolute;
+    height: 130px;
+    font-size: 37px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    margin-left: 141px;
+    margin-top: 40px;
+}
+.friends{
+    margin-left: 480px;
+    margin-top: 53px;
+    position: absolute;
+}
+.friendbutton {
+    position: absolute;
+    margin-left: 610px;
+    margin-top: 204px;
+}
+.friendbigtriangle {
+    position: absolute;
+    margin-left: 635px;
+    margin-top: 219px;
+    }
+.twitter {
+    border: 1px solid #ec9e03;
+    background-color: #ec9e03;
+    width: 327px;
+    height: 231px;
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 112px;
+}
+.twitter img{
+    padding: 57px 81px;
+}
+.plus1 {
+    position: absolute;
+    margin-left: 1138px;
+    margin-top: 320px;
+}
+.plus2 {
+    position: absolute;
+    margin-left: 455px;
+    margin-top: 320px;
+}
+.thirdpicture {
+    position: absolute;
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    margin-left: 1115px;
+    margin-top: 122px;
+}
+.April {
+    margin-left: 140px;
+    margin-top: 342px;
+    position: absolute;
+    border: 1px solid #ddb101;
+    background-color: #ddb101;
+    width: 113px;
+    height: 87px;
+    }
+.April .twenty-five{
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+.calendar{
+    margin-left: 30px;
+    margin-top: 14px;
+}
+.April .Month{
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI";
+}
+.loadslider2{
+    position: absolute;
+    margin-left: 213px;
+    margin-top: 473px;
+}
+.videoslider2{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 473px;
+}
 .center {
-    background-image: url('./assets/Layer\ 32.png');
+    background-image: url('./assets/center/Layer\ 32.png');
     background-repeat: no-repeat;
     background-position:center;
     width: 100%;
     height: 500px;
 }
+.loremtitle2{
+    position: absolute;
+    width: 621px;
+    height: 130px;
+    font-size: 43px;
+    letter-spacing: 0.6px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-weight: 400;
+    margin-left: 351px;
+    margin-top: 43px;
+}
+.tablet1, .tablet2, .tablet3{
+    position: absolute;
+}
+.tablet1{
+    margin-left: 159px;
+    margin-top: 138px;
+    }
+.tablet2{
+    margin-left: 506px;
+    margin-top: 180px;
+}
+.tablet3{
+    margin-left: 660px;
+    margin-top: 290px;
+}
+.its100free{
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    border-radius: 58px;
+    border: 0px solid #f5c506;
+    background-color: #f5c506;
+    margin-left: 139px;
+    margin-top: 95px;
+}
+.its100free p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 116px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+    padding: 51px 6px;
+}
+.list {
+    position: absolute;
+}
+.list ul {
+    list-style-image: url("assets/center/Ellipse\ 4\ copy\ 3.png");
+    margin-left: 800px;
+    margin-top: 180px;
+}
+.list li p {
+    width: 352px;
+    height: 45px;
+    font-size: 21px;
+    letter-spacing: 0.9px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400;
+    padding-top: 5px;
+    padding-left: 11px;
+}
+.long {
+margin-top: -24px;;
+}
+.hard{
+    margin-top: -9px;
+}
+
 .footer {
-    background-image: url('./assets/Layer\ 31.png');
+    background-image: url('./assets/Footer/Layer\ 31.png');
     background-repeat: no-repeat;
     background-position:center;
     width: 100%;
     height: 62px;
+}
+.three .four {
+    float: left;
+}
+.logo2 {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    position: absolute;
+    margin-top: -44px;
+    margin-left: 202px;
+}
+.footer img.three{
+    margin-left: 141px;
+}
+.footer img.four {
+    margin-top: 2px;
+    margin-left: -57px;
 }
